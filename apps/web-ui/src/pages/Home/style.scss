@@ -1,0 +1,12 @@
+._homepage-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+    ._hp-body {
+        padding: 2% 15%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+}
