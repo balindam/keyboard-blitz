@@ -10,7 +10,14 @@ const PreviousTestResults = (props: Props) => {
         testName: 'Test 1',
         testTimestamp: '2021-01-01 00:00:00',
         testResult: '120'
-    }]
+    },
+    {
+        testId: '1',
+        testName: 'Test 1',
+        testTimestamp: '2021-01-01 00:00:00',
+        testResult: '120'
+    }
+]
 
   return (
     <div className="_previous-test-results-container">
