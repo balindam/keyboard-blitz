@@ -1,7 +1,8 @@
 ._footer-container {
     display: flex;
     flex-direction: column;
-    padding: 0 12.5%;
+    padding: 2% 12.5%;
+    gap: 1rem;
 
     ._footer-section-1 {
         display: flex;
@@ -12,9 +13,11 @@
     ._footer-section-2 {
         display: flex;
         flex-direction: row;
+        
     }
 
     ._footer-section-3 {
-
+        display: flex;
+        justify-content: center;
     }
 }

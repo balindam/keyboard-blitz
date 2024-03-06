@@ -1,7 +1,8 @@
 ._homepage-container {
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    // gap: 5%;
+    justify-content: space-between;
 
     ._hp-body {
         padding: 2.2% 12.5%;
