@@ -1,7 +1,7 @@
 import React from 'react'
 import KeyboardBlitzLogo from '@assets/icons/keyboard-blitz.svg?react'
 import './style.scss'
-import IconButtonV2 from '@components/common/IconButton/IconButtonV2'
+import IconButtonV2 from '@/components/common/IconButton/IconButtonV2'
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import BoltRoundedIcon from '@mui/icons-material/BoltRounded';
