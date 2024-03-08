@@ -23,11 +23,14 @@
     // for absolute imports
     "baseUrl": "src",
     "paths": {
-      "@/*": ["src/*"],
+      "@/*": ["web-ui/*"],
       "@components/*": ["src/components/*"],
-      "@assets/*": ["src/assets/*"]
+      "@assets/*": ["public/assets/*"]
     },
+
+    // for importing svg as ReactComponent with Vite
+    "types": ["vite/client"],
   },
-  "include": ["src"],
+  "include": ["src", "public"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
