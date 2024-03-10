@@ -1,0 +1,15 @@
+._homepage-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    // gap: 5%;
+    // justify-content: space-between;
+
+    ._hp-body {
+        padding: 2.2% 12.5%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        flex: 80%;
+    }
+}
