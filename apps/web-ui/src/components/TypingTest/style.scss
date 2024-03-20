@@ -1,0 +1,66 @@
+._typing-test-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+._typing-text-display-container {
+    word-wrap: break-word;
+    border: 2px solid #E5E8EB;
+    padding: 1rem;
+
+    ._typing-text-display-word {
+        display: inline-block;
+        margin: 0 0.5rem;
+    }
+
+    .highlight {
+        background-color: #E5E8EB;
+    }
+
+    .highlight-wrong {
+        background-color: #fe0000;
+    }
+
+    .correct {
+        color: #008001;
+    }
+
+    .wrong {
+        color: #fe0000;
+    }
+}
+
+._typing-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    ._typing-input {
+        // background-color: #f5f5f5; 
+        border: 2px solid #E5E8EB;
+        border-radius: 10px; 
+        padding: 10px; 
+        // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    ._typing-input input {
+        border: none;
+        outline: none; 
+        font-size: 16px; 
+        width: 100%; 
+        background-color: transparent;
+    }
+
+    ._typing-input-timer {
+
+    }
+
+    ._typing-input-refresh {
+        background: #F0F2F5;
+        padding: 0.4rem;
+        border-radius: 5px;
+    }
+}

@@ -5,3 +5,5 @@ export const resultInfoItems: Array<string> = [
     'Mistakes',
     'Accuracy',
 ]
+
+export const typingTestTimeOptions: Array<number> = [15, 30, 60];

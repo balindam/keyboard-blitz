@@ -25,7 +25,8 @@
     "paths": {
       "@/*": ["web-ui/*"],
       "@components/*": ["src/components/*"],
-      "@assets/*": ["public/assets/*"]
+      "@assets/*": ["public/assets/*"],
+      "@constants/*": ["src/constants/*"],
     },
 
     // for importing svg as ReactComponent with Vite
