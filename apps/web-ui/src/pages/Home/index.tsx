@@ -1,10 +1,10 @@
-import React from 'react'
 import NavBar from '@components/NavBar/NavBar'
 import Footer from '@components/Footer'
 import ResultInfo from '@components/ResultInfo/ResultInfo'
 import PreviousTestResults from '@components/PreviousTestResults'
 import './style.scss'
 import TypingTest from '@components/TypingTest/TypingTest'
+import { Button } from '@components/ui/button'
 
 const Home = () => {
   return (
@@ -14,6 +14,7 @@ const Home = () => {
             <TypingTest />
             <ResultInfo />
             <PreviousTestResults />
+            <Button />
         </div>
         <Footer />
     </div>

@@ -21,9 +21,9 @@
     "noFallthroughCasesInSwitch": true,
 
     // for absolute imports
-    "baseUrl": "src",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["web-ui/*"],
+      "@/*": ["./src/*"],
       "@components/*": ["src/components/*"],
       "@assets/*": ["public/assets/*"],
       "@constants/*": ["src/constants/*"],
@@ -32,6 +32,6 @@
     // for importing svg as ReactComponent with Vite
     "types": ["vite/client"],
   },
-  "include": ["src", "public"],
+  "include": ["src", "public", "vite-env.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
